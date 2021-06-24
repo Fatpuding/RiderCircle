@@ -23,7 +23,7 @@
 
 使用YApi接口管理平台并使用代理功能
 
-### `在 package.jason 文件中添加代理地址，例如添加一行 “proxy”：“https://yapi.baidu.com”`
+### 在 package.jason 文件中添加代理地址，例如添加一行 `“proxy”：“https://yapi.baidu.com”`
 
 ## 技术选型
 
