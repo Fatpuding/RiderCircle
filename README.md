@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# RiderCircle
-=======
-<<<<<<< HEAD
 # RiderCircle
 车友圈
 =======
