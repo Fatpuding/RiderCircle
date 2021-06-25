@@ -1,0 +1,53 @@
+.container {
+    width:375px;
+    height:647px;
+    border:1px solid gray;
+    text-align:center;
+
+}
+
+.header {
+    background-color: #fcfcfc;
+    font-family: PingFang-SC-Medium;
+    font-size: 16px;
+    color: #333333;
+    letter-spacing: 0;
+    text-align: center;
+    font-weight: 500;
+    display: inline-block;
+    width: 373px;
+    height: 44px;
+}
+
+
+.hotcircles {
+    height: 14px;
+    background-color: #fcfcfc;
+    font-family: PingFang-SC-Medium;
+    font-size: 14px;
+    color: #333333;
+    letter-spacing: 0;
+    text-align: left;
+    font-weight: 500;
+}
+
+
+.circle {
+    margin-top:12px;
+    width:246px;
+    height:117px;
+    background: #FFFFFF;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.10);
+    border-radius: 4px;
+}
+
+.circleNmae {
+    font-family: PingFang-SC-Bold;
+    font-size: 14px;
+    color: #333333;
+    line-height: 14px;
+    font-weight: 700;
+    margin-top: 12px;
+    margin-left: 12px;
+    text-align:right;
+}
