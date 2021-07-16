@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Router from './Routes/Router';
+import App from './App';
+import storageUtils from './utils/storageUtils'
+import memoryUtils from './utils/memoryUtils'
+import { BrowserRouter } from 'react-router-dom';
+import { renderRoutes } from 'react-router-config';
 
-ReactDOM.render(
-    <React.StrictMode>
-        <Router />
-  </React.StrictMode>,
+// 读取local中保存user, 保存到内存中
+const user = storageUtils.getUser()
+memoryUtils.user = user
+
+ReactDOM.render( <App />,
   document.getElementById('root')
 );
 
@@ -15,6 +19,8 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
-
+/*(<BrowserRouter>
+        {renderRoutes(routes)}
+    </BrowserRouter>)*/
 //ReactDOM.render(<Router />, document.getElementById('root'));
 reportWebVitals();
