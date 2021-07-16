@@ -23,7 +23,7 @@
 
 在 package.jason 文件中添加代理地址，例如添加一行:
 
-### `“proxy”：“https://yapi.baidu.com”`
+### `“proxy”：“https://localhost:8080”`
 
 在public中添加api
 
