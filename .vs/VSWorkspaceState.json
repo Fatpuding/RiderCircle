@@ -1,0 +1,20 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\pages",
+    "\\src\\pages\\admin",
+    "\\src\\pages\\admin\\answer",
+    "\\src\\pages\\admin\\circles",
+    "\\src\\pages\\admin\\commentaries",
+    "\\src\\pages\\admin\\home",
+    "\\src\\pages\\admin\\posts",
+    "\\src\\pages\\admin\\questions",
+    "\\src\\pages\\admin\\users",
+    "\\src\\pages\\client",
+    "\\src\\pages\\client\\circle",
+    "\\src\\pages\\client\\post"
+  ],
+  "SelectedNode": "\\src\\pages\\admin\\posts\\posts.jsx",
+  "PreviewInSolutionExplorer": false
+}
