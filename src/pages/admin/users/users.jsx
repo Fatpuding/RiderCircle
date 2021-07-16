@@ -119,9 +119,9 @@ export default class Users extends Component {
         const { users, isShow } = this.state
         const user = this.user || {}
 
-		const {token}=storageUtils.getAdmin()
+	const {token}=storageUtils.getAdmin()
 	if(!token){
-	return <Redirect to ="/admin/login"/>
+		return <Redirect to ="/admin/login"/>
 	}
 
         const title = <div style={{ display: "flex", width: "100%" }}>
